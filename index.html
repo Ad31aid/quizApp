@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+  <header>
+    <h1>JavaScript Quiz</h1>
+  </header>
+  <main>
+    <div id="quiz-container" class ="container, flexbox">
+     
+    </div>
+
+
+    <div id="result-container" style="display: none;">
+      <h2>Your Score: <span id="final-score"></span></h2>
+      <form>
+        <label for="initials">Enter Initials:</label>
+
+        <input type="text" id="initials" maxlength="3" />
+
+        <button type="submit">Submit</button>
+      </form>
+      <ul class="list-group">
+
+      </ul>
+
+      <button onclick="newQuiz()">New Quiz?</button>
+
+    </div>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
